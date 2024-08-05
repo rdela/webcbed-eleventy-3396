@@ -1,0 +1,13 @@
+<script webc:setup>
+    const sorted = ["one", "two", "three", "four", "five"];
+    const top = sorted.slice(postsInt);
+    const recent_posts = top.reverse;
+</script>
+
+<p @text="numposts"></p>
+<p @raw="typeof numposts"></p>
+<p @raw="typeof parseInt(numposts)"></p>
+
+<div webc:for="item of sorted" @text="item"></div>
+
+<div webc:for="item of (sorted.slice(numposts).reverse())" @text="item"></div>

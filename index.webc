@@ -2,3 +2,4 @@
 const layout = 'base.webc'
 ---
 <my-component></my-component>
+<collections-post @numposts="2"></collections-post>
