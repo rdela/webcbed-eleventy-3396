@@ -4,8 +4,6 @@
 </script>
 
 <p @text="numposts"></p> <!--- Works here --->
-<p @raw="typeof numposts"></p>
-<p @raw="typeof parseInt(numposts)"></p>
 
 <p @html="setupNumposts"></p> <!--- Empty --->
 
