@@ -5,7 +5,7 @@
 
 <p @text="numposts"></p> <!--- Works here --->
 
-<p @html="setupNumposts"></p> <!--- Empty --->
+<p @text="setupNumposts"></p> <!--- Empty --->
 
 <div webc:for="item of sorted" @text="item"></div>
 
